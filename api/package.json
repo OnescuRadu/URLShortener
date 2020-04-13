@@ -1,0 +1,21 @@
+{
+  "name": "UrlShortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=80 node app.js",
+    "start-dev": "cross-env PORT=5000 nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Onescu Radu Mihai <mail@raduonescu.com> (https://raduonescu.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "is-valid-http-url": "^1.0.3",
+    "mongoose": "^5.9.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "randomstring": "^1.1.5"
+  }
+}
